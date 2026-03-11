@@ -8,7 +8,7 @@ from hashlib import sha1
 import requests  # type: ignore
 import alive_progress  # type: ignore
 
-STD_LIBS = ["base"]
+STD_LIBS = ["base","quality","space-age"]
 
 
 def main(json_file: Path, all: bool = False) -> None:
